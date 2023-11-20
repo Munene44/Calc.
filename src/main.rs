@@ -16,3 +16,6 @@ fn main() {
             return;
         }
     };
+    let square = number * number;
+    println!("The square of {} is: {}", number, square);
+}
